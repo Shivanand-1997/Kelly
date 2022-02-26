@@ -1,0 +1,17 @@
+.hello{
+    width: 400px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+.hello::before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 19px;
+    border-radius: 50px;
+    left: 35px;
+    top: 19;
+    background: #fff;
+    border: 2px solid #34b7a7;
+}
